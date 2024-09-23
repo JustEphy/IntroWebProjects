@@ -1,0 +1,48 @@
+body {
+	background-color: black;
+	background-image: url("./image/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	color: white;
+	font-family: OCR A Std, monospace;
+}
+.content {
+		max-width: 600px;
+		margin: auto;
+}
+
+a:link {
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: red;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:active {
+	color: pink;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+table, th, td {
+	border: 2px solid white;
+	border-collapse: collapse;
+	color: white;
+}
+
+td a img {
+	width: 250px;
+	height: 75px;
+}

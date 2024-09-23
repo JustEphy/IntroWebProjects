@@ -1,0 +1,135 @@
+body {
+    font-family: OCR A Std, monospace;
+    background-color: grey;
+    background-image: url("./image/background1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    text-align: left;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: #144142;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+form div label {
+    margin-bottom: 5px;
+}
+
+form div input,
+form div select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form div span.error {
+    color: #ff0000;
+    margin-top: 5px; 
+    display: block;
+}
+
+
+.submit-button input[type="submit"] {
+    width: 100%;
+    max-width: 2000px; /* Adjust the width as needed */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button input[type="submit"]:hover {
+    background-color: #555;
+}
+
+table {
+	width: 50%;
+	border-collapse: collapse;
+} 
+
+th, td {
+	border: 2px solid #144142;
+	text-align: center;
+}
+	
+th {
+	background-color: teal;
+	color: white;
+	padding: 1px 20px;
+}
+
+td {
+	padding: 1px 10px;
+}
+
+tr:hover {
+	background-color: coral
+}
+
+a {
+    color: #ff69b4; 
+    text-decoration: none; 
+}
+
+a:visited {
+    color: #ff69b4; 
+}
+
+a:hover {
+    color: #ff1493; 
+    text-decoration: underline;
+}
+
+.message {
+	color: green;
+	font-weight: bold;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
